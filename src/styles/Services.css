@@ -1,0 +1,130 @@
+.services {
+  background-color: white;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+.service-card {
+  padding: 2.5rem;
+  background: #f8fafc;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 1.5rem;
+  }
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1e3a8a, #f59e0b);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover::before {
+  transform: scaleX(1);
+}
+
+.service-card:hover {
+  background: white;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+@media (max-width: 480px) {
+  .service-card:hover {
+    transform: translateY(-2px);
+  }
+}
+
+.service-icon {
+  display: inline-block;
+  padding: 1rem;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .service-icon {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-icon svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .service-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+}
+
+.service-description {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .service-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
