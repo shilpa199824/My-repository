@@ -35,6 +35,8 @@ technical design while continuing to develop my skills and knowledge within the 
                 <h4>Certifications</h4>
                 <p>Site Engineer (12/2020 - 01/2022)(N Giriraju Engineering contactors)</p>
                 <p>Graduate Apprentice Training (02/2022 - 03/2023)( Bharat Electronics Limited)</p>
+                <p>JAVA Full Stack Training (08/24 - 01/2025)( Besant Technologies )
+</p>
               </div>
             </div>
           </div>

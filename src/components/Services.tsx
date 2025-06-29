@@ -42,7 +42,7 @@ const Services: React.FC = () => {
         <div className="text-center">
           <h2 className="section-title">My Services</h2>
           <p className="section-subtitle">
-            Comprehensive civil engineering services tailored to meet your project needs, 
+            Comprehensive civil engineering services tailored to meet our project needs, 
             from initial concept to final completion.
           </p>
         </div>

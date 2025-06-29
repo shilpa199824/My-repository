@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
           <div className="contact-info">
             <h3>Let's Connect</h3>
             <p>
-              I’m Shilpa R, a civil engineer specializing in sustainable infrastructure and structural design. Let’s explore how we can collaborate to deliver efficient, resilient projects that positively impact communities.</p>
+              I’m Shilpa R, a Civil Engineer specializing in Quantity Surveyor, Darafting & designing. Let’s explore how we can collaborate to deliver efficient, resilient projects that positively impact communities.</p>
             
             <div className="contact-methods">
               <div className="contact-method">
